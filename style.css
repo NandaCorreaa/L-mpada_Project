@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-image: url('./Assets/bg-luz-apagada.jpg');
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    height: 15vh;
+    display: flex;
+    align-items: end;    
+    font-size: 60px;
+}
+  
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 20vh;
+    width: 30%;
+}
+  
+button {
+    background-color: green;
+    width: 12vw;
+    height: 6vh;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 15px;
+    border: white groove 2px;
+}
+  
+button:hover {
+    background-color: red;
+}
+  
